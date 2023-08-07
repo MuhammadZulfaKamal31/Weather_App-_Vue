@@ -11,6 +11,6 @@
 </template>
 <script setup>
 import AsynCityView from "../components/AsyncCityView.vue"
-import CityViewSkeleton from "../components/cityViewSkeleton.vue";
+import CityViewSkeleton from "../components/CityViewSkeletonn.vue";
 </script >
 <style ></style>
