@@ -37,12 +37,12 @@ const router = createRouter({
 
 //bagaian ini oposional dan gak wajib
 // Mendaftarkan global navigation guard menggunakan beforeEach
-router.beforeEach((to, from, next) => {
-  // Menetapkan judul halaman berdasarkan parameter rute (city dan state) atau meta title
-  document.title = `${to.params.state ? `${to.params.city},${to.params.state}` : to.meta.title} | The Local Weather`
-  // Melanjutkan navigasi
-  next();
-})
+// router.beforeEach((to, from, next) => {
+//   // Menetapkan judul halaman berdasarkan parameter rute (city dan state) atau meta title
+//   document.title = `${to.params.state ? `${to.params.city},${to.params.state}` : to.meta.title} | The Local Weather`
+//   // Melanjutkan navigasi
+//   next();
+// })
 
 // Ekspor instance router yang sudah dikonfigurasi
 export default router
